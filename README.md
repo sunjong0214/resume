@@ -48,14 +48,14 @@
 
 # 프로젝트 
 
-### ![WalkiePaw]([WalkiePaw/walkie-paw: 반려견 산책 중개 플랫폼 🐶 (github.com)](https://github.com/WalkiePaw/walkie-paw))
+### [WalkiePaw](https://github.com/WalkiePaw/walkie-paw)
 
 - 기간 : 2024.06 ~ 현재
 - 소개 : 반려견 산책 매칭 서비스. 매칭된 회원들 간 채팅을 통해 서로 협의 하는 웹 사이트
 - 역할 : 게시글, 채팅, 리뷰 도메인 구현
 - 사용 기술 : Spring Data JPA, QueryDSL, Rest API 설계, Mysql
 
-### ![MOS]([bitcamp-teams/mos: 스터디도 편하게 모으고, 결과도 글로 같이 남겨보아요~ 📚 (github.com)](https://github.com/bitcamp-teams/mos))
+### [MOS](https://github.com/bitcamp-teams/mos)
 
 - 기간 : 2024.04 ~ 2024.5
 - 소개 : 스터디 그룹을 모집하고, 스터디 활동 결과물인 나무위키 형식의 문서를 작성하여 참여자들의 포트폴리오로 활용할 수 있는 웹 사이트
