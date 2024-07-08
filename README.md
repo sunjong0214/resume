@@ -50,12 +50,20 @@
 - **기간:** 2024.06 ~ 현재
 - **소개:** 반려견 산책 매칭 서비스로, 매칭된 회원들 간 채팅을 통해 서로 협의하는 웹사이트입니다.
 - **역할:** 게시글, 채팅, 리뷰 도메인 구현
-- **사용 기술:** Spring Data JPA, QueryDSL, Rest API 설계, MySQL
+ - Pagination Slice<> 사용 시 다음 페이지 있는지 확인하는 작업 Util 클래스 만들어 간편화
+ - 
+- **사용 기술:** Spring Data JPA, Querydsl, Rest API 설계, MySQL
 
 #### [MOS](https://github.com/bitcamp-teams/mos)
 - **기간:** 2024.04 ~ 2024.05
 - **소개:** 스터디 그룹을 모집하고, 스터디 활동 결과물인 나무위키 형식의 문서를 작성하여 참여자들의 포트폴리오로 활용할 수 있는 웹사이트입니다.
-- **역할:** OAuth2 활용 소셜 로그인, Mybatis 환경에서 Pageable 인터페이스 활용해 Pagination, Spring MVC 기반 개발, Spring Interceptor 이용 로그인 확인 처리, NCP Object Storage를 이용한 사진 업로드
+- **역할:**
+  - OAuth2 활용 소셜 로그인
+  - Mybatis 환경에서 Pageable 인터페이스 활용해 Pagination
+  - Spring MVC 기반 개발
+  - Spring Interceptor 이용 로그인 확인 처리
+  - Argument Resolver를 이용해 로그인 유저 공통 코드 처리
+  - NCP Object Storage를 이용한 사진 업로드
 - **사용 기술:** Spring MVC, Mybatis, Thymeleaf, NCP, MySQL
 
 ---
