@@ -44,7 +44,7 @@
 
 ---
 
-### 프로젝트
+### 활동
 
 #### [WalkiePaw](https://github.com/WalkiePaw/walkie-paw)
 - **기간:** 2024.06 ~ 현재
@@ -66,4 +66,11 @@
   - NCP Object Storage를 이용한 사진 업로드
 - **사용 기술:** Spring MVC, Mybatis, Thymeleaf, NCP, MySQL
 
+#### **42 Seoul La Piscine** (2023.02 ~ 2023.03)
+  - C언어 이용해 과제 해결
+  - 과제 제출 시 구성원들끼리 코드 리뷰 후에 제출 가능 → 리뷰 문화 경험
+    
+#### **(디지털컨버전스) 파이썬 & 자바기반 빅데이터 SW개발자 양성 B** (2022-06 ~ 2022~12)
+  - 스프링 기반 프로젝트 경험
+  - CRUD 위주의 클론 코딩 프로젝트
 ---
