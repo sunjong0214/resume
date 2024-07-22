@@ -51,11 +51,11 @@
 - **기간:** 2024.06 ~ 현재
 - **소개:** 반려견 산책 매칭 서비스로, 매칭된 회원들 간 채팅을 통해 서로 협의하는 웹사이트입니다.
 - **역할:** 게시글, 채팅, 리뷰 도메인 구현
- - Pagination Slice<> 사용 시 다음 페이지 있는지 확인하는 작업 Util 클래스 만들어 간편화
- - Spring Data Jpa 이용 Entity 설계
- - Querydsl 라이브러리 사용해 복잡한 쿼리 처리
- - Spring AOP를 이용한 logging 구현
- - Spring WebSocket & STOMP를 이용해 1:1 채팅 구현
+  - Pagination Slice<> 사용 시 다음 페이지 있는지 확인하는 작업 Util 클래스 만들어 간편화
+  - Spring Data Jpa 이용 Entity 설계
+  - Querydsl 라이브러리 사용해 복잡한 쿼리 처리
+  - Spring AOP를 이용한 logging 구현
+  - Spring WebSocket & STOMP를 이용해 1:1 채팅 구현
 - **사용 기술:** Spring Data JPA, Querydsl, Rest API 설계, MySQL, WebSocket, STOMP
 
 #### [MOS](https://github.com/bitcamp-teams/mos)
