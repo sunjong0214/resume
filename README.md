@@ -27,6 +27,17 @@
 
 - **(디지털컨버전스) 파이썬 & 자바기반 빅데이터 SW개발자 양성 B**
   (2022-06 ~ 2022~12)
+  
+---
+### 자기 개발 활동
+
+#### [기술 블로그 운영](https://sunjong0214.github.io)
+- 23/12월부터 꾸준히 글 작성
+- 공부한 내용 정리 및 복습 위주
+ 
+#### [알고리즘 스터디](https://github.com/won-and-jong/Data-Structures-and-Algorithms)
+- 자료구조 위주의 알고리즘 스터디 진행
+- 스터디원들과 코드 리뷰를 통해 피드백
 ---
 
 ### 사용 기술
@@ -51,10 +62,16 @@
 - **기간:** 2024.06 ~ 현재
 - **소개:** 반려견 산책 매칭 서비스로, 매칭된 회원들 간 채팅을 통해 서로 협의하는 웹사이트입니다.
 - **역할:** 게시글, 채팅, 리뷰 도메인 구현
-  - Pagination Slice<> 사용 시 다음 페이지 있는지 확인하는 작업 Util 클래스 만들어 간편화
-  - Spring Data Jpa 이용 Entity 설계
-  - Querydsl 라이브러리 사용해 복잡한 쿼리 처리
-  - Spring AOP를 이용한 logging 구현
+  - `페이징 중복 코드 제거`
+    - Pagination Slice<> 사용 시 다음 페이지 있는지 확인 중복 코드 발생
+    - QuerydslRepositorySupport을 커스텀한 클래스 구현해 중복 코드 제거
+  - Spring Data JPA 이용 Entity 설계
+  - `Spring Data JPA 단점 보완`
+    - Spring Data JPA는 동적 쿼리나 복잡한 쿼리 작성시 어려움
+    - Querydsl 라이브러리 사용해 동적쿼리 및 복잡한 쿼리 처리
+  - `실행 시간 로깅 AOP 구현`
+    - 게시글 요청시 성능 이슈가 발생 -> 어디서 병목이 발생하는지 찾기 힘듬
+    - @Trace 어노테이션을 통해 실행 시간을 체크하는 logging AOP 구현
   - Spring WebSocket & STOMP를 이용해 1:1 채팅 구현
 - **사용 기술:** Spring Data JPA, Querydsl, Rest API 설계, MySQL, WebSocket, STOMP
 
