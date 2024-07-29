@@ -41,7 +41,7 @@
 
 ---
 
-### 활동
+### 프로젝트
 
 #### [WalkiePaw](https://github.com/WalkiePaw/walkie-paw)
 - **기간:** 2024.06 ~ 현재
