@@ -71,6 +71,9 @@
   - `AWS S3, RDS 사용`
     - 게시글, 회원 이미지 업로드에 S3 사용
     - RDS 사용해 DB 구축
+  - `JPA Entity 연관관계 제거`
+    - foreign key와 연관관계가 복잡하게 얽혀있어 잘못된 데이터를 삭제나 운영 시 불편함
+    - foregin key와 연관관계를 다 풀어서 Entity id값으로 매핑 
 
 #### [MOS](https://github.com/bitcamp-teams/mos)
 - **기간:** 2024.04 ~ 2024.05
